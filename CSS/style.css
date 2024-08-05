@@ -43,8 +43,10 @@ p{
 }
 .center-heading{
     text-align: center;
+    padding-top: 5%;
     padding-bottom: 5%;
     font-size: 40px;
+    
 }
 span{
     border-bottom: 3px solid ;
@@ -72,4 +74,6 @@ span{
 }
 footer{
     text-align: center;
+    padding-top: 5%;
+    
 }
