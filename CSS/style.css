@@ -6,7 +6,7 @@
 }
 section{
     height: 500px;
-    display: inline-block;
+    padding-top: 5%;
 }
 .text-color{
     color: palevioletred;
@@ -41,6 +41,35 @@ p{
     flex-direction: row;
     
 }
+.center-heading{
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 40px;
+}
+span{
+    border-bottom: 3px solid ;
+    border-image: linear-gradient(90deg, rgb(0, 179, 255),rgb(79, 0, 128));
+    border-image-slice: 1;
+}
 .my-work img{
     width: 33%;
+}
+.client-say{
+    text-align: center;
+}
+.contact{
+    display: inline-block;
+    background-image: linear-gradient(45deg, rgba(0, 204, 255, 0.799), rgba(0, 51, 255, 0.804));
+    padding: 50px 100px;
+    border-radius: 5px;
+    color: white;
+}
+.contact-button-design{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+footer{
+    text-align: center;
 }
