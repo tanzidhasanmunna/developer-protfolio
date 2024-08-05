@@ -4,9 +4,34 @@
     margin: 0;
     
 }
-section{
+.header{
+    background-image: url("../assets/Images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
     height: 500px;
+    margin-top: 5%;
+}
+.biography{
+    background-image: url("../assets/Images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 650px;
+}
+.latest-work{
+    background-image: url("../assets/Images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.client-say{
+    background-image: url("../assets/Images/footer-bg.png");
+    background-position: right;
+    text-align: center;
+}
+footer{
+    text-align: center;
     padding-top: 5%;
+    
 }
 .text-color{
     color: palevioletred;
@@ -56,9 +81,6 @@ span{
 .my-work img{
     width: 33%;
 }
-.client-say{
-    text-align: center;
-}
 .contact{
     display: inline-block;
     background-image: linear-gradient(45deg, rgba(0, 204, 255, 0.799), rgba(0, 51, 255, 0.804));
@@ -71,9 +93,4 @@ span{
     font-size: 25px;
     color: white;
     font-weight: 700;
-}
-footer{
-    text-align: center;
-    padding-top: 5%;
-    
 }
